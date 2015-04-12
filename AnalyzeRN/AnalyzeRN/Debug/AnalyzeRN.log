@@ -1,37 +1,9 @@
-﻿Build started 31.3.2015 20:02:30.
-     1>Project "D:\Martin\Vysoká škola\Projects\Random numbers\AnalyzeRN\AnalyzeRN\AnalyzeRN.vcxproj" on node 2 (Build target(s)).
-     1>ClCompile:
-         D:\Programy\Visual Studio 2013 instal\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt analysis.cpp main.cpp test.cpp
-         analysis.cpp
-     1>d:\martin\vysoká škola\projects\random numbers\analyzern\analyzern\analysis.cpp(116): warning C4018: '<' : signed/unsigned mismatch
-     1>d:\martin\vysoká škola\projects\random numbers\analyzern\analyzern\analysis.cpp(130): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
-     1>d:\martin\vysoká škola\projects\random numbers\analyzern\analyzern\analysis.cpp(202): warning C4244: '+=' : conversion from 'double' to 'unsigned int', possible loss of data
-     1>d:\martin\vysoká škola\projects\random numbers\analyzern\analyzern\analysis.cpp(204): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
-         Generating Code...
-         Compiling...
-         test.cpp
-     1>d:\martin\vysoká škola\projects\random numbers\analyzern\analyzern\test.cpp(55): warning C4018: '<' : signed/unsigned mismatch
-     1>d:\martin\vysoká škola\projects\random numbers\analyzern\analyzern\test.cpp(106): warning C4018: '<' : signed/unsigned mismatch
-         main.cpp
-     1>d:\martin\vysoká škola\projects\random numbers\analyzern\analyzern\kolmogorovsmirnovdist.c(491): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
-     1>d:\martin\vysoká škola\projects\random numbers\analyzern\analyzern\kolmogorovsmirnovdist.c(494): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
-     1>d:\martin\vysoká škola\projects\random numbers\analyzern\analyzern\kolmogorovsmirnovdist.c(498): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
-     1>d:\martin\vysoká škola\projects\random numbers\analyzern\analyzern\kolmogorovsmirnovdist.c(501): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
-     1>d:\martin\vysoká škola\projects\random numbers\analyzern\analyzern\main.cpp(33): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
-     1>d:\martin\vysoká škola\projects\random numbers\analyzern\analyzern\main.cpp(52): warning C4018: '<' : signed/unsigned mismatch
-         Generating Code...
-       Link:
-         D:\Programy\Visual Studio 2013 instal\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Martin\Vysoká škola\Projects\Random numbers\AnalyzeRN\Debug\AnalyzeRN.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Martin\Vysoká škola\Projects\Random numbers\AnalyzeRN\Debug\AnalyzeRN.pdb" /SUBSYSTEM:CONSOLE /STACK:"85000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Martin\Vysoká škola\Projects\Random numbers\AnalyzeRN\Debug\AnalyzeRN.lib" /MACHINE:X86 Debug\analysis.obj
-         Debug\file.obj
-         Debug\generator.obj
-         Debug\KolmogorovSmirnovDist.obj
-         Debug\main.obj
-         Debug\QRBG.obj
-         Debug\statistics.obj
-         Debug\test.obj
-         AnalyzeRN.vcxproj -> D:\Martin\Vysoká škola\Projects\Random numbers\AnalyzeRN\Debug\AnalyzeRN.exe
-     1>Done Building Project "D:\Martin\Vysoká škola\Projects\Random numbers\AnalyzeRN\AnalyzeRN\AnalyzeRN.vcxproj" (Build target(s)).
+﻿Build started 11.4.2015 21:22:08.
+     1>Project "d:\Martin\Vysoká škola\Projects\Random numbers\AnalyzeRandom\AnalyzeRN\AnalyzeRN\AnalyzeRN.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         AnalyzeRN.vcxproj -> D:\Martin\Vysoká škola\Projects\Random numbers\AnalyzeRandom\AnalyzeRN\Debug\AnalyzeRN.exe
+     1>Done Building Project "d:\Martin\Vysoká škola\Projects\Random numbers\AnalyzeRandom\AnalyzeRN\AnalyzeRN\AnalyzeRN.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:02.77
+Time Elapsed 00:00:00.06
