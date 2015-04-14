@@ -58,7 +58,7 @@ int main()
 	std::vector<double> pi_values;
 	Analysis *anal = new Analysis();
 	anal->setCountByte(length_block);
-	anal->gener_mask_variant1();
+	anal->gener_mask_variant2();
 
 	for (int i = 0; i < 1000; i++)
 	{
@@ -83,6 +83,8 @@ int main()
 		}
 		best_mask = anal->compute_differences();
 		
+		std::cout << i;
+		std::cout << " ";
 		delete[] block;
 	}
 

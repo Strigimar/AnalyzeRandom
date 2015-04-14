@@ -38,7 +38,7 @@ private:
 
 	unsigned char* observed = nullptr;
 	//unsigned char expected[COUNT_BYTE];
-	const int max_count_ones = 10;
+	const int max_count_ones = 6;
 	const int max_length = 15;
 	std::unordered_set< std::vector<int> > masks;
 	std::vector<std::vector<int> > best_masks;

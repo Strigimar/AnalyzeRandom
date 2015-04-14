@@ -82,8 +82,8 @@ std::vector<int> Analysis::application_mask()
 		
 		Statistics *st = new Statistics();
 		double pi = st->get_chi2Probability(((1 << mask.size()) - 1), chi_quadr);
-		std::cout << pi;
-		std::cout << "  ";
+		/*std::cout << pi;
+		std::cout << "  ";*/
 		if (pi < best_pi && pi != 0)
 		{
 			best_mask = mask;
